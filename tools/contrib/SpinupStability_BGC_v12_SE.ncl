@@ -35,17 +35,17 @@ begin
 ;=======================================================================;
 
 ; GLOBAL EXAMPLE
- caseid = "ctsm53n02ctsm52027_ne30pg3t232_AD"
- username = "oleson"
- annual_hist = True
+ caseid = "ctsm5.4_5.3.068_PPEcal115_116_pSASU"
+ username = "wwieder"
+ annual_hist = False
  region = "Global"              ; Global
  subper = 20                    ; Subsampling period in years
  paleo = False                  ; Use paleo map ; UNTESTED IN THIS VERSION
- hist_ext = "h0"                ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
+ hist_ext = "h0a"                ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
 
 ;--- ARH mods ---
  map_method = "conserve"      ;bilinear,conserve or patch
- dout_s = False               ;short term storage (archive) directory structure
+ dout_s = True               ;short term storage (archive) directory structure
 
 ;srcGrid = "ne120pg3"
 ;srcGridName="/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/coords/ne120pg3_scrip_c170628.nc"

@@ -30,13 +30,13 @@ begin
 ;=======================================================================;
 
 ; GLOBAL EXAMPLE
-  caseid = "ctsm53026_BNF_AD"
-  username = "slevis"
-  annual_hist = True
+  caseid = "ctsm5.4_5.3.068_PPEcal115f09_118_pSASU"
+  username = "wwieder"
+  annual_hist = False
   region = "Global"              ; Global, Arctic, or SPT (single point)
   subper = 20                    ; Subsampling period in years
   paleo = False                  ; Use paleo map
-  hist_ext = "h0"                ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
+  hist_ext = "h0a"                ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
 
 ; SPT (single point) EXAMPLE
 ; caseid = "clm50_release-clm5.0.15_SPT_GSWP3V1_1850spin"

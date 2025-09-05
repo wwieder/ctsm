@@ -25,14 +25,14 @@ begin
 ; The script assumes that your history files are in /glade/derecho/scratch/$username/archive/$caseid/lnd/hist
 ;=======================================================================;
 
-  caseid = "clm50sp_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_1850spin"
-  username = "oleson"
+  caseid = "ctsm5.4_5.3.068_PPEcal115_SP_f09_121_1850"
+  username = "wwieder"
   annual_hist = "False"
   cplot = "Global"
   subper = 20
   h2osoi_layer = 8               ; Desired soil layer (layer 8 is about 1m)
   tsoi_layer = 10                ; Desired soil layer (layer 10 is about 3m)
-  hist_ext = "h0"                ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
+  hist_ext = "h0a"               ; Set to either h0 (ctsm5.3.061 or earlier) or h0a (ctsm5.3.062 or later)
 
   do_plot = "True"
 ;=======================================================================;
